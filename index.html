@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>GPA Calculator</title>
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="source.js"></script>
 
@@ -12,6 +13,7 @@
 
 </head>
 <body class = "container">
+<div class = "row">
 <div class="input-field col s12">
     <select class="Class">
         <option value="0" selected>Grade</option>
@@ -207,8 +209,11 @@
 
     <label>Class 7</label>
 </div>
-
+    </div>
+<div class = "row>">
+    <h4>Your GPA</h4>
     <div class="output"></div>
     <button class = "add" onclick="calculateGPA()">Calculate</button>
+</div>
 </body>
 </html>
